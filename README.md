@@ -1,4 +1,5 @@
 # React + TypeScript + Vite + Ant Design
+
 This template provides a setup for working with React in Vite, including HMR (Hot Module Replacement) and ESLint rules. It also integrates Ant Design for UI components and react-router-dom for routing.
 
 ## Features
@@ -87,53 +88,33 @@ Contributing
 Contributions are welcome. Please open an issue or submit a pull request with your changes.
 License
 MIT
-Copy
-This README provides a comprehensive overview of the project, including:
 
-1. A brief introduction
-2. Main features
-3. Information about Vite plugins
-4. Guide for expanding ESLint configuration
-5. List of included packages
-6. Getting started instructions
-7. Available scripts
-8. Project structure
-9. Additional configuration
-10. How to contribute
-11. License information
+🌐 English | Español
 
-You can use this README as a base and customize it according to your project's specific needs, adding or modifying sections as necessary.
-
----
-# React + TypeScript + Vite + Ant Design}
-
+React + TypeScript + Vite + Ant Design
 Este template proporciona una configuración para trabajar con React en Vite, incluyendo HMR (Hot Module Replacement) y reglas de ESLint. Además, integra Ant Design para la interfaz de usuario y react-router-dom para el enrutamiento.
+Características
 
-## Características
+React 18
+TypeScript
+Vite para build rápido
+Ant Design para componentes de UI
+React Router para navegación
+ESLint + Prettier para linting y formateo de código
+Dotenv para manejo de variables de entorno
 
-- React 18
-- TypeScript
-- Vite para build rápido
-- Ant Design para componentes de UI
-- React Router para navegación
-- ESLint + Prettier para linting y formateo de código
-- Dotenv para manejo de variables de entorno
-
-## Plugins oficiales de Vite
-
+Plugins oficiales de Vite
 Actualmente, dos plugins oficiales están disponibles:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) usa Babel para Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) usa SWC para Fast Refresh
+@vitejs/plugin-react usa Babel para Fast Refresh
+@vitejs/plugin-react-swc usa SWC para Fast Refresh
 
-## Ampliando la configuración de ESLint
-
+Ampliando la configuración de ESLint
 Para aplicaciones de producción, se recomienda actualizar la configuración para habilitar reglas de lint con conocimiento de tipos:
 
-1. Configura la propiedad `parserOptions` de nivel superior así:
+Configura la propiedad parserOptions de nivel superior así:
 
-```js
-export default {
+jsCopyexport default {
   // otras reglas...
   parserOptions: {
     ecmaVersion: 'latest',
@@ -190,24 +171,3 @@ Este proyecto incluye:
 Configuración básica de React Router para navegación
 Integración de Ant Design para componentes de UI
 Estructura de proyecto organizada
-
-Contribuir
-Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request con tus cambios.
-Licencia
-MIT
-Copy
-Este README proporciona una visión completa del proyecto, incluyendo:
-
-1. Una breve introducción
-2. Las características principales
-3. Información sobre los plugins de Vite
-4. Guía para expandir la configuración de ESLint
-5. Lista de paquetes incluidos
-6. Instrucciones para comenzar
-7. Scripts disponibles
-8. Estructura del proyecto
-9. Configuración adicional
-10. Cómo contribuir
-11. Información de la licencia
-
-Puedes usar este README como base y personalizarlo según las necesidades específicas de tu proyecto, añadiendo o modificando secciones según sea necesario.
